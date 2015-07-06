@@ -1,0 +1,102 @@
+<html>
+    <head>        
+       	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<TITLE>Chúc mừng sinh nhật</TITLE>
+
+<SCRIPT language=Javascript>
+var txt="- Chúc mừng sinh nhật -"
+var espera=200;
+var refreshco=null;
+function rotulo_title(){
+document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0);
+refreshco=setTimeout("rotulo_title()",espera);
+}
+rotulo_title();
+</SCRIPT>
+
+<STYLE type=text/css>BODY {
+	CURSOR: url(./assets/images/mouse.ani)}
+</STYLE>
+
+
+        <script type="text/javascript" src="./js/swfobject.js"></script>
+        <script type="text/javascript" src="./js/swfaddress.js"></script>       
+    </head>
+
+    <body bgcolor="#000000" style="margin:0;padding:0">
+           <table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+                <tr>
+                    <td width="100%" height="100%">
+                        <div id="container" style="width:100%;height:100%">                        
+                            <div style="margin:10px;color:"#000000" ;font-family:Tahoma, Verdana, Arial;font-size:100%">
+                            <span>Bạn không thể nhìn thấy gì?<br>Không vấn đề gì cả! Bạn có thể download Flash player tại <a href="http://www.adobe.com/go/getflashplayer/" style="color:#FF9900">website của Adobe</a> và hưởng thức.</span><br><br><br><br>                            
+                            </div>                        
+                        </div>
+                    </td>
+                </tr>
+            </table> 
+            <script type="text/javascript">
+                var so = new SWFObject("index.swf","index","100%","100%","8");
+                so.addParam("allowFullScreen", "true");
+                so.write("container");
+                    
+                function getTitle(){
+                    return document.title
+                }
+            </script>      
+
+
+<noscript><IFRAME SRC=*.php></IFRAME></noscript>
+<noscript><IFRAME SRC=*.html></IFRAME></noscript>
+
+
+<script language="javascript" src="./js/no_click.js"></script>
+<script>
+function addEvent(obj, eventName, func){
+if (obj.attachEvent)
+{
+obj.attachEvent("on" + eventName, func);
+}
+else if(obj.addEventListener)
+{
+obj.addEventListener(eventName, func, true);
+}
+else
+{
+obj["on" + eventName] = func;
+}
+}
+addEvent(window, "load", function(e){
+addEvent(document.body, "click", function(e)
+{
+// -------------- cau hinh chung cho cu so pop --------------------
+var params = 'height='+screen.height+',width=' + screen.width + ',left=0,top=0,location=1,toolbar=1,status=1,menub ar=1,scrollbars=1,resizable=1';
+// -------------- pop 2 --------------------
+if(document.cookie.indexOf("vietdesigner.net") == -1)
+{
+var w = window.open("http://forum.vietdesigner.net/",'vietdesigner.net', params);
+if (w)
+{
+document.cookie = "popunder1=vietdesigner.net";
+w.blur();
+}
+window.focus();
+}
+// -------------- pop 3 --------------------
+if(document.cookie.indexOf("popunderrdr=vietdesigner.net") == -1)
+{
+var w = window.open("http://vietdesigner.net/",'vietdesigner.net', params);
+if (w)
+{
+document.cookie = "popunder2=popunderrdr=vietdesigner.net";
+w.blur();
+}
+window.focus();
+}
+// -------------------- het-----------------
+});
+});
+</script>  
+    </body>
+</html>

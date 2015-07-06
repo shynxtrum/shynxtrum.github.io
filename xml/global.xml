@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>		
+	<switcher enabled="true"/>	
+	<yeartype number="1"/><!-- 1, 2, 3 -->
+	<snow enabled="true" flake="assets/flakes/flake1.png" type="falling"/><!-- falling, 3D -->
+	<title1 color="#ffffff"><![CDATA[From Tu Nguyen with love]]></title1>
+	<title2 color="#c4c4c4"><![CDATA[Chuc em (hoi muon mot ti) sinh nhat tuoi 20 nhieu niem vui va 1(2) nhe!!!]]></title2>
+	<sound enabled="true" link="assets/audio/HappyBirthday.mp3"/>		
+	<fullscreen enabled="true"/>		
+	<slideshow duration="4000">
+		<image path="assets/images/Merry.mp4" type="FILL"/>
+	</slideshow>
+	<slideshow duration="4000">
+		<image path="assets/images/img1.jpg" type="FILL"/>
+		<image path="assets/images/img2.jpg" type="FILL"/>
+		<image path="assets/images/img3.jpg" type="FILL"/>
+		<image path="assets/images/img4.jpg" type="FILL"/>
+		<image path="assets/images/img5.jpg" type="FILL"/>
+		<image path="assets/images/img6.jpg" type="FILL"/>
+		<image path="assets/images/img7.jpg" type="FILL"/>
+		<image path="assets/images/img8.jpg" type="FILL"/>
+		<image path="assets/images/img9.jpg" type="FILL"/>
+		<image path="assets/images/img10.jpg" type="FILL"/>
+		<image path="assets/images/img11.jpg" type="FILL"/>
+		<image path="assets/images/img12.jpg" type="FILL"/>
+		<image path="assets/images/img13.jpg" type="FILL"/>
+		<image path="assets/images/img14.jpg" type="FILL"/>
+		<image path="assets/images/img15.jpg" type="FILL"/>
+		<image path="assets/images/img16.jpg" type="FILL"/>
+		<image path="assets/images/img17.jpg" type="FILL"/>
+		<image path="assets/images/img18.jpg" type="FILL"/>
+	</slideshow>	
+	<slideshow duration="4000">
+		<image path="assets/images/birthday_background.jpg" type="FILL"/>
+	</slideshow>
+</root>
